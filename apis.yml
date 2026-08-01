@@ -1,8 +1,28 @@
 aid: prescience-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prescience-inc.png
 name: Prescience Inc
-description: Prescience Inc is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Prescience, Inc. is a Y Combinator (Summer 2026) health benefits platform for
+  employers, building "healthcare for the age of abundant intelligence." It uses
+  machine-learning underwriting to design custom, largely self-insured health
+  plans that aim to cut employer healthcare spend 20-50% versus traditional
+  PEO and insurer plans, pairing $0-deductible coverage, included GLP-1
+  medications, wearables, and a 24/7 AI Care Companion for members. The company
+  sells to employers, private-equity portfolios, and providers, and publicly
+  attests to SOC 2 and HIPAA compliance. As of this profile it exposes a
+  marketing and member/employer web application only - no public API, developer
+  portal, SDKs, MCP server, or machine-readable specification was found.
 url: https://raw.githubusercontent.com/api-evangelist/prescience-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health Insurance
+- Employee Benefits
+- Insurance
+- Artificial Intelligence
+- Machine Learning
+- Startups
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prescience-inc-domain-security.yml
+- type: Website
+  url: https://www.getprescience.com
+- type: About
+  url: https://www.getprescience.com/about
+- type: Careers
+  url: https://careers.getprescience.com
+- type: SignUp
+  url: https://www.getprescience.com/get-started
+- type: Login
+  url: https://www.getprescience.com/signin
+- type: TermsOfService
+  url: https://www.getprescience.com/terms
+- type: PrivacyPolicy
+  url: https://www.getprescience.com/privacy
+- type: Compliance
+  url: https://www.getprescience.com/privacy#soc-2
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
