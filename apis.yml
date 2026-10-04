@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prescience-inc.png
-name: Prescience Inc
+name: Prescience
 description: >-
   Prescience, Inc. is a Y Combinator (Summer 2026) health benefits platform for
   employers, building "healthcare for the age of abundant intelligence." It uses
@@ -51,7 +51,7 @@ tags:
 - Employee Benefits
 - Insurance
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Startups
 - Y Combinator
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Machine Learning
 - Startups
 - Y Combinator
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
@@ -94,3 +95,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Prescience Inc
