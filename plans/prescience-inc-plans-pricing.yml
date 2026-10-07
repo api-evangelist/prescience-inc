@@ -1,0 +1,32 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.getprescience.com/smbs
+sources:
+- https://www.getprescience.com/smbs
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Marketing page for small-business health plans. The only numeric figure framed as a price is '$0'
+  admin fees (plan setup and ongoing admin included); actual plan cost requires 'Get an instant quote'
+  or 'Book a demo'. Other dollar figures on the page (deductibles, OOP maximums, HSA limits) are illustrative
+  benefit designs and benchmarks, not provider prices. An FAQ item 'What does it cost?' is listed without
+  visible answer text.
+plan_count: 1
+currency: USD
+plans:
+- name: No admin fees
+  price_text: $0
+  price: 0
+  currency: USD
+  period: none
+  unit: admin fees
+  included_quota: Plan setup and ongoing admin included
